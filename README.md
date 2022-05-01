@@ -16,7 +16,7 @@ You'll need [Python](https://www.python.org/downloads/)!
 python v3.10.1 or higher
 ```
 
-### 1. You Need To Create A Webhhok:
+### 1. You Need To Create A Webhook:
 ```
 You can do this by going into server settings or channel settings. Pressing on integrations
 and creating a webhook. Copy the webhook url for later.
