@@ -4,6 +4,7 @@
 
 <h2 align="center">
   Luna spammer is the fastest webhook spammer!
+  If you skid this give me or addidix credits!
 </h2>
 
 
@@ -50,6 +51,3 @@ held against you.
 > Don't quite understand how to set it up? [Click me!](https://discord.gg/luna22)
 
 
-<h2 align="center">
-If you skid this give me or addidix credits!
-</h2>
