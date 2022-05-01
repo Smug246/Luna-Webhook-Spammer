@@ -44,8 +44,12 @@ be spammed until the terminal is closed.
 This was made for educational purposes only. We do not take responsibility of any actions
 held against you.
 
+
+
+
+> Don't quite understand how to set it up? [Click me!](https://discord.gg/luna22)
+
+
 <h2 align="center">
 If you skid this give me or addidix credits!
 </h2>
-
-> Don't quite understand how to set it up? [Click me!](https://discord.gg/luna22)
