@@ -1,9 +1,9 @@
 <h1 align="center">
-  Luna Spammer 💥
+Luna Spammer 💥
 </h1>
 
 <h2 align="center">
-  Luna is the fastest weebhook spammer!
+Luna is the fastest webhook spammer!
 </h2>
 
 
