@@ -1,4 +1,4 @@
-# Coded with ❤ by Luna's Dev Team.
+# Coded with ❤ by Luna's Dev Team
 
 import time
 import os
