@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-Luna is the fastest webhook spammer!
+  Luna spammer is the fastest webhook spammer!
 </h2>
 
 
