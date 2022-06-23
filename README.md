@@ -4,7 +4,6 @@
 
 <h2 align="center">
   Luna spammer is the fastest webhook spammer!
-  If you skid this give me or addidix credits!
 </h2>
 
 <h3 align="center">
