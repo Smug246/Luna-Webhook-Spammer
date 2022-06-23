@@ -11,44 +11,11 @@ Don't Forget To ⭐ If You Like It!
 </h3>
 
 
-## 🐍・ Download Python
+## <a id="setup"></a> 🔨 Webhook Spammer Setup
 
-You'll need [Python](https://www.python.org/downloads/)!
-```sh-session
-python v3.10.1 or higher
-```
+1. Install [python](https://www.python.org/) and add it to [path](https://datatofish.com/add-python-to-windows-path/).
+2. Open up [webhook-spammer.py](https://github.com/Smug246/Luna-WebhookSpammer/blob/main/webhook-spammer.py) with an IDE such as [Visual Studio Code](https://code.visualstudio.com/download) or with cmd terminal and run the script
 
-### 1. You Need To Create A Webhook:
-```
-You can do this by going into server settings or channel settings. Pressing on integrations
-and creating a webhook. Copy the webhook url for later.
-```
-
-### 2. Download The Webhook Spammer 
-```
-Now download the webhook spammer and extract the file.
-```
-### 3. Open The File
-```
-Once you have opened the file paste the webhook url you copied earlier and press enter.
-```
-### 4. What Are Iterations?
-```
-Iterations are the number of lines you want sent for each message. For example
-you could have 10 iterations so 1 message sent but with 10 lines.
-```
-### 5. Time To Spam!
-```
-Once you've entered the amount of iterations you want press enter and the webhook will 
-be spammed until the terminal is closed.
-```
-### 6. Your Welcome, Enjoy!
-This was made for educational purposes only. We do not take responsibility of any actions
-held against you.
-
-
-
-
-> Don't quite understand how to set it up? [Click me!](https://discord.gg/luna22)
+> Don't quite understand how to set it up? [Click me!](https://discord.gg/PskF2YeXnd)
 
 
