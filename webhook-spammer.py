@@ -1,29 +1,48 @@
-# Coded with ❤ by Luna's Dev Team
+# Coded with ❤ by Luna's Dev Team.
 
+import sys
 import time
 import os
-
 import requests
+
 from colorama import Fore, init
 
 class webhook_spam:
     def __init__(self):
-        self.webhook = str(input(f"{Fore.MAGENTA}Webhook{Fore.RESET} >>> "))
         
-        if not self.check_webhook(self.webhook): 
-            input(f"{Fore.RED}Invalid Webhook!{Fore.RESET}")
-            exit()
-            
-        self.message = str(input(f"{Fore.MAGENTA}Message{Fore.RESET} >>> "))
-        
-        self.iterations = int(input(f"{Fore.MAGENTA}Iterations{Fore.RESET} >>> "))
-        
-        if self.iterations < 0:
-            input(f"{Fore.RED}Invalid Iterations!{Fore.RESET}")
-            exit()
+        self.choice = int(input(f"{Fore.MAGENTA}Do you want to spam the webhook (1) or delete it? (2){Fore.RESET} >>> "))
 
-        self.spam_threads(self.webhook, self.inflate_message(self.message), self.iterations)
-        
+        if self.choice not in [1,2]:
+            print(f"{Fore.RED}Invalid Choice!") 
+            str(input(f"{Fore.MAGENTA}Press anything to exit..."))
+            sys.exit()
+
+        if self.choice == 1:
+            self.webhook = str(input(f"{Fore.MAGENTA}Webhook{Fore.RESET} >>> "))
+
+            if not self.check_webhook(self.webhook): 
+                print(f"{Fore.RED}Invalid Webhook!{Fore.RESET}")
+                str(input(f"{Fore.MAGENTA}Press anything to exit..."))
+                sys.exit()
+
+            self.message = str(input(f"{Fore.MAGENTA}Message{Fore.RESET} >>> "))
+            self.iterations = int(input(f"{Fore.MAGENTA}Iterations{Fore.RESET} >>> "))
+
+            if self.iterations < 0:
+                print(f"{Fore.RED}Invalid Iterations!{Fore.RESET}")
+                str(input(f"{Fore.MAGENTA}Press anything to exit..."))
+                sys.exit()
+
+            self.spam_threads(self.webhook, self.inflate_message(self.message), self.iterations)
+
+        if self.choice == 2:
+            self.webhook = str(input(f"{Fore.MAGENTA}Webhook{Fore.RESET} >>> " ))
+            print(f"{Fore.GREEN}Deleting Webhook!{Fore.RESET}")
+            requests.delete(self.webhook)
+            print(f"{Fore.GREEN}Webhook has been deleted!{Fore.RESET}") 
+            str(input(f"{Fore.MAGENTA}Press anything to exit..."))
+            sys.exit()
+
     def spam_threads(self, webhook, message, iterations):
         def spam(webhook, message):
             r = requests.post(
@@ -40,7 +59,8 @@ class webhook_spam:
                 
             else:
                 print(f"{Fore.YELLOW}{r.status_code}\n{Fore.RESET}")
-                exit()
+                str(input(f"{Fore.MAGENTA}Press anything to exit..."))
+                sys.exit()
                 
         for x in range(iterations):
             for y in range(5):
