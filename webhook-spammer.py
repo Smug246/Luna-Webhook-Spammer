@@ -9,7 +9,6 @@ from colorama import Fore, init
 
 class webhook_spam:
     def __init__(self):
-        
         self.choice = int(input(f"{Fore.MAGENTA}Do you want to spam the webhook (1) or delete it? (2){Fore.RESET} >>> "))
 
         if self.choice not in [1,2]:
