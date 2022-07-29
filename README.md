@@ -1,5 +1,5 @@
 <h1 align="center">
-   Luna Spammer 💥
+   Luna Webhook Spammer 💥
 </h1>
 
 <h2 align="center">
