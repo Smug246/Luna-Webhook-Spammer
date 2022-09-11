@@ -4,6 +4,10 @@ import sys
 import time
 import os
 import requests
+import subprocess
+
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'colorama'])
 
 from colorama import Fore, init
 
